@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LTsB3noFK1OZiimDNL3G2h15EOeNY/oGAvhzHCqPjsU=",
+  "Source": "ElteAccessBackend",
+  "BasePath": "_content/ElteAccessBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
