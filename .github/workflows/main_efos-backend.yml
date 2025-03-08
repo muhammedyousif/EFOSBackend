@@ -24,7 +24,7 @@ jobs:
           dotnet-version: '9.x'
 
       - name: Build with dotnet
-        run: build EfosBackend/EfosBackend.csproj --configuration Release
+        run: dotnet build EfosBackend/EfosBackend.csproj --configuration Release
 
       - name: dotnet publish
         run: dotnet publish EfosBackend/EfosBackend.csproj -c Release -o ./publish
