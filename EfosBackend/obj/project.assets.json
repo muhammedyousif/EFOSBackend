@@ -4612,11 +4612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yousifmuhammed/Programs/Efos/EfosBackend/EfosBackend.csproj",
+      "projectUniqueName": "/Users/yousifmuhammed/Programs/EFOSBackend/EfosBackend/EfosBackend.csproj",
       "projectName": "EfosBackend",
-      "projectPath": "/Users/yousifmuhammed/Programs/Efos/EfosBackend/EfosBackend.csproj",
+      "projectPath": "/Users/yousifmuhammed/Programs/EFOSBackend/EfosBackend/EfosBackend.csproj",
       "packagesPath": "/Users/yousifmuhammed/.nuget/packages/",
-      "outputPath": "/Users/yousifmuhammed/Programs/Efos/EfosBackend/obj/",
+      "outputPath": "/Users/yousifmuhammed/Programs/EFOSBackend/EfosBackend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yousifmuhammed/.nuget/NuGet/NuGet.Config"
