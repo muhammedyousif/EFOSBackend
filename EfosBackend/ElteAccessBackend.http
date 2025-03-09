@@ -1,4 +1,5 @@
-@host = http://localhost:5031
+//@host = http://localhost:5031
+@host = http://efos-backend.azurewebsites.net
 
 ###
 POST {{host}}/register

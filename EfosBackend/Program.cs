@@ -26,7 +26,7 @@ builder.Services.AddAuthentication(options =>
         options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         options.DefaultScheme = "Cookies";
-        options.DefaultChallengeScheme = "Google";
+        //options.DefaultChallengeScheme = "Google";
 
     })
     .AddJwtBearer(options =>
@@ -41,12 +41,12 @@ builder.Services.AddAuthentication(options =>
             ValidateAudience = false
         };
     }).AddCookie("Cookies")
-    .AddGoogle("Google", options =>
+    /*.AddGoogle("Google", options =>
     {
         options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
         options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
         options.CallbackPath = "/signin-google"; // Redirect URI registered in Google Console
-    });
+    })*/;
 
 //google
 
@@ -73,7 +73,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-GoogleSetup();
+//GoogleSetup();
 
 
 void GoogleSetup()
